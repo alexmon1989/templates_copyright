@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <title>КЛОПОТАННЯ_ДР_2</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="text-center">
+                <h1 class="h4">МІНІСТЕРСТВО ЕКОНОМІЧНОГО РОЗВИТКУ І ТОРГІВЛІ УКРАЇНИ<br>(Мінекономрозвитку України)</h1>
+
+                <p class="pt-4">Вул. М. Грушевського, 12/2, м. Київ, 01008, тел. 253-93-94, факс 226-31-81<br>
+                    Web: http://www.me.gov.ua, e-mail: meconomy@me.gov.ua, код ЄДРПОУ 37508596</p>
+
+                <p class="font-weight-bold pt-2">КЛОПОТАННЯ<br>про внесення змін до<br>Державного реєстру договорів, які стосуються права автора на твір</p>
+
+                <table class="table table-bordered table-sm g-table-border-color-black text-left">
+                    <tr>
+                        <td class="font-weight-bold" width="25%">Назва твору</td>
+                        <td class="font-weight-bold">{WORK_TITLE}</td>
+                    </tr>
+                    <tr>
+                        <td class="font-weight-bold">Повне ім’я або повне офіційне найменування суб’єкта (суб’єктів) авторського права та його (їх) адреса</td>
+                        <td class="font-weight-bold">{SUBJECT_TITLE_ADDRESS}</td>
+                    </tr>
+                    <tr>
+                        <td class="font-weight-bold">Адреса для листування</td>
+                        <td class="font-weight-bold">{ADDRESS}</td>
+                    </tr>
+                </table>
+
+                <hr>
+
+                <div class="pl-5 pr-5 pt-3">
+                    <table class="table table-bordered table-sm g-table-border-color-black g-font-size-12">
+                        <tr>
+                            <td class="font-weight-bold" width="25%">Номер заявки</td>
+                            <td colspan="3">Дата подання</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">{APP_NUMBER}</td>
+                            <td>{APP_DAY}</td>
+                            <td>{APP_MONTH}</td>
+                            <td>{APP_YEAR}</td>
+                        </tr>
+                        <tr>
+                            <td>Число</td>
+                            <td>Місяць</td>
+                            <td>Рік</td>
+                        </tr>
+                    </table>
+
+                    <table class="table table-bordered table-sm g-table-border-color-black g-font-size-12">
+                        <tr>
+                            <td class="font-weight-bold" width="25%">Номер рішення про реєстрацію договору, який стосується права автора на твір</td>
+                            <td class="align-middle" colspan="3">Дата реєстрації</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">{APP_NUMBER}</td>
+                            <td>{APP_DAY}</td>
+                            <td>{APP_MONTH}</td>
+                            <td>{APP_YEAR}</td>
+                        </tr>
+                        <tr>
+                            <td>Число</td>
+                            <td>Місяць</td>
+                            <td>Рік</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <hr>
+
+            <p class="g-font-size-16 g-text-indent-15 pt-2">Прошу внести до Державного реєстру договорів, які стосуються права автора на твір відомості щодо {ABOUT}, а саме {DETAILS}.</p>
+
+            <table class="table table-bordered table-sm g-table-border-color-black">
+                <tr>
+                    <td class="font-weight-bold text-center" colspan="2">Перелік документів і матеріалів, що додаються до Клопотання</td>
+                    <td class="font-weight-bold">Кількість аркушів</td>
+                </tr>
+                <tr>
+                    <td>{DOCUMENTS_PAYMENTS_EXISTS}</td>
+                    <td class="font-weight-bold">Документ про сплату збору за внесення змін до Державного реєстру або за виправлення
+                        очевидних помилок або<br>
+                        Документ, що підтверджує наявність пільг по сплаті збору
+                    </td>
+                    <td>{DOCUMENTS_PAYMENTS_PAGES}</td>
+                </tr>
+                <tr>
+                    <td>{DOCUMENTS_LAWFULNESS_EXISTS}</td>
+                    <td class="font-weight-bold"><b>Документи, що підтверджують правомірність змін</b> (за потреби)</td>
+                    <td>{DOCUMENTS_LAWFULNESS_PAGES}</td>
+                </tr>
+                <tr>
+                    <td>{DOCUMENTS_ATTORNEY_EXISTS}</td>
+                    <td class="font-weight-bold"><b>Довіреність</b></td>
+                    <td>{DOCUMENTS_ATTORNEY_PAGES}</td>
+                </tr>
+            </table>
+
+            <p class="g-text-indent-15 mb-1"><b><i><u>Я, який нижче підписався,</u> підтверджую достатність і достовірність відомостей, вказаних у матеріалах Клопотання:</i></b></p>
+            <p class="g-text-indent-15">{NAME_AND_SIGN}</p>
+
+            <p class="g-text-indent-15"><b>Дата:</b> {DATE}</p>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

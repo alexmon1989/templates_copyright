@@ -1,0 +1,56 @@
+@import "~bootstrap/dist/css/bootstrap";
+
+html {zoom: .72;}
+
+body {
+  padding-top: 30px;
+}
+
+hr {
+  border-top: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.g-table-border-color-black {
+  td {
+    border: 1px solid #000000;
+  }
+}
+
+.g-table-border-color-none {
+  td {
+    border: none;
+  }
+}
+
+.g-font-size-12 {
+  font-size: 0.8rem;
+}
+
+.g-font-size-15 {
+  font-size: 1.1rem;
+}
+
+.g-font-size-16 {
+  font-size: 1.2rem;
+}
+
+.g-text-indent-15 {
+  text-indent: 1.5em;
+  text-align: justify;
+}
+
+.g-text-align-justify {
+  text-align: justify;
+}
+
+.g-text-align-right {
+  text-align: right;
+}
+
+.g-text-align-left {
+  text-align: left;
+}
+
+.g-border-color-black {
+  border-color: black !important;
+}
